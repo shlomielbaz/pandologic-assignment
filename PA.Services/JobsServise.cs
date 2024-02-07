@@ -1,42 +1,68 @@
 ﻿using System.Linq.Expressions;
+using Microsoft.EntityFrameworkCore;
+using PA.Data;
 using PA.Domain;
 
 namespace PA.Services;
 public class JobsService : IJobsService
 {
+    private readonly Repository<JobContext> db;
+
+    public JobsService(IRepository<JobContext> repository)
+    {
+        db = (Repository<JobContext>)repository;
+    }
+
     public void Add(Job entity)
     {
-        throw new NotImplementedException();
+        db.Add<Job>(entity);
+
+        db.Save();
     }
 
     public void Delete(long id)
     {
-        throw new NotImplementedException();
+        var entity = this.Get(id);
+        if (entity != null)
+        {
+            db.Delete<Job>(entity);
+        }
+        else
+        {
+            throw new Exception("The item you ment to delete dosen't exist");
+        }
     }
 
     public bool Exists(long id)
     {
-        throw new NotImplementedException();
+        return this.Get(id) != null;
     }
 
     public IEnumerable<Job> Get()
     {
-        throw new NotImplementedException();
+        return db.GetList<Job>();
     }
 
     public Job Get(long id)
     {
-        throw new NotImplementedException();
+        return db.Get<Job>(e => e.Id == id);
     }
 
     public IEnumerable<Job> GetBy(Expression<Func<Job, bool>> predicate)
     {
-        throw new NotImplementedException();
+        return db.GetList<Job>(predicate);
     }
 
     public void Update(Job entity)
     {
-        throw new NotImplementedException();
+        try
+        {
+            db.Update(entity);
+        }
+        catch (DbUpdateConcurrencyException)
+        {
+            throw;
+        }
     }
 }
 
