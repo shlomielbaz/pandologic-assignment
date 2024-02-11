@@ -31,13 +31,12 @@ The project requirements can be found in [requirments.md](https://github.com/shl
 - Client Side - from PA.Site run `npm install`
 
 ## Running the project's
-- _Using CLI's_
+- _**Using CLI's**_
 - **Server** - from PA.Api project run `dotnet run`,
 - **Client** - from PA.Site run `npm start`
-- Configut the client project -
-- set the `apiUrl` in `PA.Web/src/app/app.config.ts` the same as it shows in the line `Now listening on: http://localhost:5218`
+- **Configure The Client** make sure the API end-point is set properly, please set the `apiUrl` in `PA.Web/src/app/app.config.ts`, for example the following is a snapshot from `dotnet run` command, the client URL is in the line `Now listening on: http://localhost:5218`
 
-- <img width="632" alt="image" src="https://github.com/shlomielbaz/pandologic-assignment/assets/426076/10547a92-eac5-41a2-a805-ea970e7536b1">
+<img width="632" alt="image" src="https://github.com/shlomielbaz/pandologic-assignment/assets/426076/10547a92-eac5-41a2-a805-ea970e7536b1">
 
 
 ## Some snap-shots from the UI
