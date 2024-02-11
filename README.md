@@ -7,8 +7,6 @@ The server side uses a .NET core built-in dependency injection mechanism, entity
 
 The UI's use [Angular 15](https://github.com/shlomielbaz/employee-management/blob/main/requirement.md)
 
-The project requirements can be found in [requirments.md](https://github.com/shlomielbaz/employee-management/blob/db073e2158e8816dd8e849e1cdc481ab5e8a35c0/requirement.md)
-
 ### The Project Structure
 - **PA.Api** - responsible for incoming HTTP messages.
     - _Controllers_ - contains classes that handle the RESTFul APIs.
