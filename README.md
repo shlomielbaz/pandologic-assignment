@@ -2,7 +2,9 @@
 
 A _Pandologic Assignment_ is a simple CRUD operations application, 
 it utilizes the [three-tier architecture](https://www.ibm.com/topics/three-tier-architecture) which emphasizes the separation between UI and business tiers, \
+
 The server side uses a .NET core built-in dependency injection mechanism, entityframework, generic repository pattern, unit-of-work pattern, and more... \
+
 The UI's use [Angular 15](https://github.com/shlomielbaz/employee-management/blob/main/requirement.md)
 
 The project requirements can be found in [requirments.md](https://github.com/shlomielbaz/employee-management/blob/db073e2158e8816dd8e849e1cdc481ab5e8a35c0/requirement.md)
@@ -15,9 +17,8 @@ The project requirements can be found in [requirments.md](https://github.com/shl
   - _Entities_ - contains classes that reflect the DB schemas. 
   - _Enums_ - contains the application types. 
   - _General_ - contains classes for general use. 
-  - _Helpers_ - contains helpers classes.
   - _Interfaces_ - contains interfaces that represent the application abstraction. 
-  - _ViewModels_ contains classes representing data transfer objects with UI views reflection.
+  - _Models_ contains classes representing data transfer objects with UI views reflection.
 - **PA.Services** - represent the transformation tier which is a mediator between the messaging and business tiers, and transforms incoming messages from/to ViewModel's.
 - **PA.Site** - contains the Angular (client-side) project
 
@@ -30,6 +31,13 @@ The project requirements can be found in [requirments.md](https://github.com/shl
 - Client Side - from PA.Site run `npm install`
 
 ## Running the project's
-- Using CLI's - from PA.Api project run `dotnet run`, from PA.Site run `npm start`
+- _Using CLI's_
+- **Server** - from PA.Api project run `dotnet run`,
+- **Client** - from PA.Site run `npm start`
+- Configut the client project -
+- set the `apiUrl` in `PA.Web/src/app/app.config.ts` the same as it shows in the line `Now listening on: http://localhost:5218`
+
+- <img width="632" alt="image" src="https://github.com/shlomielbaz/pandologic-assignment/assets/426076/10547a92-eac5-41a2-a805-ea970e7536b1">
+
 
 ## Some snap-shots from the UI
