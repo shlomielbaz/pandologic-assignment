@@ -1,9 +1,9 @@
 # Pandologic Assignment
 
 A _Pandologic Assignment_ is a simple CRUD operations application, 
-it utilizes the [three-tier architecture](https://www.ibm.com/topics/three-tier-architecture) which emphasizes the separation between UI and business tiers, \
+it utilizes the [three-tier architecture](https://www.ibm.com/topics/three-tier-architecture) which emphasizes the separation between UI and business tiers, 
 
-The server side uses a .NET core built-in dependency injection mechanism, entityframework, generic repository pattern, unit-of-work pattern, and more... \
+The server side uses a .NET core built-in dependency injection mechanism, entityframework, generic repository pattern, unit-of-work pattern, and more... 
 
 The UI's use [Angular 15](https://github.com/shlomielbaz/employee-management/blob/main/requirement.md)
 
