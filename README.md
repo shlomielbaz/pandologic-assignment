@@ -39,4 +39,6 @@ The project requirements can be found in [requirments.md](https://github.com/shl
 <img width="632" alt="image" src="https://github.com/shlomielbaz/pandologic-assignment/assets/426076/10547a92-eac5-41a2-a805-ea970e7536b1">
 
 
-## Some snap-shots from the UI
+## The UI snapshots
+<img width="1247" alt="image" src="https://github.com/shlomielbaz/pandologic-assignment/assets/426076/73ccf4a5-a03e-43fa-894b-04ca74de1013">
+
