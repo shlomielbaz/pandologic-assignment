@@ -16,7 +16,6 @@ public class JobsService : IJobsService
     public void Add(Job entity)
     {
         db.Add<Job>(entity);
-
         db.Save();
     }
 

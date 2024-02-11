@@ -4,7 +4,7 @@ namespace PA.Domain;
 public class JobViewModel
 {
     [JsonProperty("id")]
-    public int Id { get; set; }
+    public long Id { get; set; }
 
     [JsonProperty("date")]
     public DateTime Date { get; set; }
