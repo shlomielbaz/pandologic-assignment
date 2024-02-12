@@ -9,6 +9,8 @@ The UI's use [Angular 15](https://github.com/shlomielbaz/employee-management/blo
 
 Using [NGRX](https://ngrx.io/) for application state management 
 
+Project [requirements](REQUIREMENTS.md)
+
 ### The Project Structure
 - **PA.Api** - responsible for incoming HTTP messages.
     - _Controllers_ - contains classes that handle the RESTFul APIs.
