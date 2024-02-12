@@ -33,12 +33,18 @@ The UI's use [Angular 15](https://github.com/shlomielbaz/employee-management/blo
 - **Client** - from PA.Web run `npm start`
 - **Configure The Client** make sure the API end-point is set properly, please set the `apiUrl` in `PA.Web/src/app/app.config.ts`, for example, the following is a snapshot from `dotnet run` command, the client URL is in the line `Now listening on: http://localhost:5218`
 
-<img width="632" alt="image" src="https://github.com/shlomielbaz/pandologic-assignment/assets/426076/10547a92-eac5-41a2-a805-ea970e7536b1">
+## Snapshots
+#### CLI logs snapshots
+<img width="632" alt="image" src="https://github.com/shlomielbaz/pandologic-assignment/assets/426076/10547a92-eac5-41a2-a805-ea970e7536b1"> \
+`dotnet run` command log
 
-## UI snapshots
+<img width="824" alt="image" src="https://github.com/shlomielbaz/pandologic-assignment/assets/426076/5e138120-fef9-4341-a8bb-fe01f73b3982"> \
+`npm start` command log
+
+#### UI snapshots
 <img width="1247" alt="image" src="https://github.com/shlomielbaz/pandologic-assignment/assets/426076/73ccf4a5-a03e-43fa-894b-04ca74de1013">
 
-## DB snapshots
+#### DB snapshots
 <img width="1070" alt="image" src="https://github.com/shlomielbaz/pandologic-assignment/assets/426076/369c6eba-b40e-4657-87ee-4219bd6dbbde"> \
 The table fields follow the entity attribute declarations
 
