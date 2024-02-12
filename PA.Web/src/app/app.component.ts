@@ -2,14 +2,13 @@ import { CommonModule } from "@angular/common";
 import { Component, OnInit } from "@angular/core";
 import { RouterModule } from "@angular/router";
 import { Store } from "@ngrx/store";
-import { setJobs } from "./store/job.actions";
-import { Job, jobSelector, JobState } from "./store/job.reducer";
-
-import { ChartType, Column, GoogleChartsModule } from "angular-google-charts";
-
-import { JobsService } from "./services/jobs.service";
 import { HttpClientModule } from "@angular/common/http";
 import { Observable } from "rxjs";
+import { ChartType, Column, GoogleChartsModule } from "angular-google-charts";
+
+import { setJobs } from "./store/job.actions";
+import { Job, jobSelector, JobState } from "./store/job.reducer";
+import { JobsService } from "./services/jobs.service";
 
 @Component({
   selector: "app-root",
@@ -80,7 +79,7 @@ export class AppComponent implements OnInit {
     });
 
     this.service.getData().subscribe(jobs => {
-      return this.store.dispatch(setJobs(jobs))
+      this.store.dispatch(setJobs(jobs))
     });
   }
 }
