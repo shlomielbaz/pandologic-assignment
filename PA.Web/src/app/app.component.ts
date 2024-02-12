@@ -66,11 +66,11 @@ export class AppComponent implements OnInit {
       type: "number",
     },
     {
-      label: "Cumulative job views",
+      label: "Job views",
       type: "number",
     },
     {
-      label: "Cumulative predicted job views",
+      label: "Predicted job views",
       type: "number",
     },
   ];

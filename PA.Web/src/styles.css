@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+.google-visualization-tooltip {
+    border: solid 1px #bdbdbd;
+    border-radius: 2px;
+    background-color: white;
+    position: absolute;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.6);
+    font-size: 11px;
+    -moz-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.6);
+    font-family: arial;
+    text-align: start;
+  }
+  
+  .google-visualization-tooltip div {
+    padding: 5px;
+  }
+  
+  .google-visualization-tooltip-item-list >
+  li.google-visualization-tooltip-item {
+    text-align: start;
+  }
+  
+  
