@@ -35,12 +35,11 @@ The UI's use [Angular 15](https://github.com/shlomielbaz/employee-management/blo
 
 <img width="632" alt="image" src="https://github.com/shlomielbaz/pandologic-assignment/assets/426076/10547a92-eac5-41a2-a805-ea970e7536b1">
 
-
 ## UI snapshots
-<img width="1247" alt="image" src="https://github.com/shlomielbaz/pandologic-assignment/assets/426076/73ccf4a5-a03e-43fa-894b-04ca74de1013"> \
+<img width="1247" alt="image" src="https://github.com/shlomielbaz/pandologic-assignment/assets/426076/73ccf4a5-a03e-43fa-894b-04ca74de1013">
 
 ## DB snapshots
-<img width="1070" alt="image" src="https://github.com/shlomielbaz/pandologic-assignment/assets/426076/369c6eba-b40e-4657-87ee-4219bd6dbbde"> \
+<img width="1070" alt="image" src="https://github.com/shlomielbaz/pandologic-assignment/assets/426076/369c6eba-b40e-4657-87ee-4219bd6dbbde">
 The table fields follow the entity attribute declarations
 ```C#
 [Table("jobs")]
