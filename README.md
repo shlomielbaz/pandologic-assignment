@@ -7,6 +7,8 @@ The server side uses a .NET core built-in dependency injection mechanism, entity
 
 The UI's use [Angular 15](https://github.com/shlomielbaz/employee-management/blob/main/requirement.md)
 
+Using [NGRX](https://ngrx.io/) for application state management 
+
 ### The Project Structure
 - **PA.Api** - responsible for incoming HTTP messages.
     - _Controllers_ - contains classes that handle the RESTFul APIs.
