@@ -1,9 +1,9 @@
 # Pandologic Assignment
 
 A _Pandologic Assignment_ is a simple CRUD operations application, 
-it utilizes the [three-tier architecture](https://www.ibm.com/topics/three-tier-architecture) which emphasizes the separation between UI and business tiers, \
+it utilizes the [three-tier architecture](https://www.ibm.com/topics/three-tier-architecture) which emphasizes the separation between UI and business tiers, 
 
-The server side uses a .NET core built-in dependency injection mechanism, entityframework, generic repository pattern, unit-of-work pattern, and more... \
+The server side uses a .NET core built-in dependency injection mechanism, entityframework, generic repository pattern, unit-of-work pattern, and more... 
 
 The UI's use [Angular 15](https://github.com/shlomielbaz/employee-management/blob/main/requirement.md)
 
@@ -24,7 +24,7 @@ The UI's use [Angular 15](https://github.com/shlomielbaz/employee-management/blo
 ![app-diagram](https://user-images.githubusercontent.com/426076/220337080-ddf6706e-fbb2-4ce1-aede-105d4b973a5e.png)
 
 ## Build the project's
-- From PA.Data project run `update-database` migration command
+- The SQLIte database is already exist, if you want to fresh it, just delete the files `PA.Data/database.db`, `PA.Data/database.db-shm` and `PA.Data/database.db-wal` from PA.Data project and then run `update-database` or `dotnet ef database update` migration command
 - Server Side - build the project by Visual Studio or from PA.Api project run the `dotnet build` CLI command.
 - Client Side - from PA.Web run `npm install`
 
