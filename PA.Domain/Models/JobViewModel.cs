@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 
 namespace PA.Domain;
-public class JobViewModel
+public class JobViewModel: IViewModel
 {
     [JsonProperty("id")]
     public long Id { get; set; }

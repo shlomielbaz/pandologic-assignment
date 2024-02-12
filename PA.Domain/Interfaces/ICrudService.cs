@@ -1,9 +1,7 @@
-﻿using System.Linq.Expressions;
-
-namespace PA.Domain;
+﻿namespace PA.Domain;
 public interface ICrudService<E, VM>
     where E : BaseEntity, new()
-    where VM : new()
+    where VM : IViewModel, new()
 {
     public IEnumerable<VM> Get();
     public VM Get(long id);
