@@ -43,23 +43,19 @@ The UI's use [Angular 15](https://github.com/shlomielbaz/employee-management/blo
 <img width="1070" alt="image" src="https://github.com/shlomielbaz/pandologic-assignment/assets/426076/369c6eba-b40e-4657-87ee-4219bd6dbbde"> \
 The table fields follow the entity attribute declarations
 ```C#
-public class JobViewModel: IViewModel
+[Table("jobs")]
+public class Job : BaseEntity
 {
-    [JsonProperty("id")]
-    public long Id { get; set; }
-
-    [JsonProperty("date")]
+    [Column("date")]
     public DateTime Date { get; set; }
 
-    [JsonProperty("totalJobs")]
+    [Column("total_jobs")]
     public int TotalJobs { get; set; }
 
-    [JsonProperty("totalViews")]
+    [Column("total_views")]
     public int TotalViews { get; set; }
 
-    [JsonProperty("predictedViews")]
+    [Column("predicted_views")]
     public int PredictedViews { get; set; }
 }
 ```
-
-
