@@ -23,13 +23,12 @@ The UI's use [Angular 15](https://github.com/shlomielbaz/employee-management/blo
 ### A HTTP Message Flow Schema:
 ![app-diagram](https://user-images.githubusercontent.com/426076/220337080-ddf6706e-fbb2-4ce1-aede-105d4b973a5e.png)
 
-## Build the project's
+## Running the project's
 - **Database** - The SQLIte database is already exist, is locate in `PA.Data` project, if you want to fresh it, just delete the files `PA.Data/database.db` from PA.Data project and then run migrations command such as `update-database` (powershell) or `dotnet ef database update` (bash terminal) 
 - **Server Side** - build the project by Visual Studio or from PA.Api project run the `dotnet build` CLI command.
-- **Client Side** - from PA.Web run `npm install`
-
-## Running the project's
-- _**Using CLI's**_
+- **Client Side** - from PA.Web run `npm install` \
+\
+**<ins>Using CLI's:</ins>**
 - **Server** - from PA.Api project run `dotnet run`,
 - **Client** - from PA.Web run `npm start`
 - **Configure The Client** make sure the API end-point is set properly, please set the `apiUrl` in `PA.Web/src/app/app.config.ts`, for example the following is a snapshot from `dotnet run` command, the client URL is in the line `Now listening on: http://localhost:5218`
