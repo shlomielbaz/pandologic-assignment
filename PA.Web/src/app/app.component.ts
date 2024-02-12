@@ -29,6 +29,7 @@ export class AppComponent implements OnInit {
   }
 
   data: any = [];
+
   type: ChartType = ChartType.LineChart;
 
   options: any = {
@@ -47,6 +48,7 @@ export class AppComponent implements OnInit {
     tooltip: { isHtml: true, trigger: "selection" },
     colors: ["silver", "green", "blue"],
     seriesType: "line",
+    focusTarget: 'category',
     series: {
       0: {
         type: "bars",

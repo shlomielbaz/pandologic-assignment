@@ -10,11 +10,11 @@ public static class ModelBuilderExtensions
         modelBuilder.Entity<Job>().HasData(
             new Job()
             {
-                    Id = 1,
-                    Date = new DateTime(2014, 2, 12),
-                    TotalJobs = 3,
-                    TotalViews = 0,
-                    PredictedViews = 0,
+                Id = 1,
+                Date = new DateTime(2014, 2, 12),
+                TotalJobs = 3,
+                TotalViews = 0,
+                PredictedViews = 0,
             },
             new Job()
             {
