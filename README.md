@@ -42,7 +42,8 @@ The UI's use [Angular 15](https://github.com/shlomielbaz/employee-management/blo
 `npm start` command log
 
 #### UI snapshots
-<img width="1247" alt="image" src="https://github.com/shlomielbaz/pandologic-assignment/assets/426076/73ccf4a5-a03e-43fa-894b-04ca74de1013">
+<img width="1247" alt="image" src="https://github.com/shlomielbaz/pandologic-assignment/assets/426076/73ccf4a5-a03e-43fa-894b-04ca74de1013"> \
+<img width="1245" alt="image" src="https://github.com/shlomielbaz/pandologic-assignment/assets/426076/38aeab09-771d-4cb8-a3d9-ef784970ae8b"> \
 
 #### DB snapshots
 <img width="1070" alt="image" src="https://github.com/shlomielbaz/pandologic-assignment/assets/426076/369c6eba-b40e-4657-87ee-4219bd6dbbde"> \
