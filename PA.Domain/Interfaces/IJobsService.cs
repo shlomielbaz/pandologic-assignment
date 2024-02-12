@@ -1,5 +1,5 @@
 ﻿namespace PA.Domain;
-public interface IJobsService : ICrudService<Job>
+public interface IJobsService : ICrudService<Job, JobViewModel>
 {
 }
 
